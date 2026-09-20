@@ -1,0 +1,12 @@
+Linux Log Review / Evidence Collection Report
+Generated: 2026-09-20 23:16:46.063036
+Log file reviewed: /var/log/auth.log
+Local Machine IP: 127.0.1.1
+Failed Login attempts found: 0
+
+Source IPs found in failed login entries:
+------------------------------------------------------------
+No Source IP found in the review entries.
+
+Matching log entries:
+------------------------------------------------------------

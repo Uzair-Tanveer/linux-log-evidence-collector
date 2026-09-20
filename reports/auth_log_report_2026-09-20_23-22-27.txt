@@ -1,0 +1,16 @@
+Linux Log Review / Evidence Collection Report
+Generated: 2026-09-20 23:22:27.245453
+Log file reviewed: /var/log/auth.log
+Local Machine IP: 127.0.1.1
+Failed Login attempts found: 4
+
+Source IPs found in failed login entries:
+------------------------------------------------------------
+127.0.0.1
+
+Matching log entries:
+------------------------------------------------------------
+2026-09-20T23:19:03.611703+00:00 Test-VM sudo: pam_unix(sudo:auth): authentication failure; logname=utanveer-test uid=1000 euid=0 tty=/dev/pts/0 ruser=utanveer-test rhost=  user=utanveer-test
+2026-09-20T23:20:44.130727+00:00 Test-VM sshd-session[4166]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=utanveer-test
+2026-09-20T23:20:47.131748+00:00 Test-VM sshd-session[4166]: Failed password for utanveer-test from 127.0.0.1 port 53410 ssh2
+2026-09-20T23:20:57.822551+00:00 Test-VM sshd-session[4166]: Failed password for utanveer-test from 127.0.0.1 port 53410 ssh2

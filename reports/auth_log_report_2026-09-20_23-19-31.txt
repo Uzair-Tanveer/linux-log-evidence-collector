@@ -1,0 +1,13 @@
+Linux Log Review / Evidence Collection Report
+Generated: 2026-09-20 23:19:31.180213
+Log file reviewed: /var/log/auth.log
+Local Machine IP: 127.0.1.1
+Failed Login attempts found: 1
+
+Source IPs found in failed login entries:
+------------------------------------------------------------
+No Source IP found in the review entries.
+
+Matching log entries:
+------------------------------------------------------------
+2026-09-20T23:19:03.611703+00:00 Test-VM sudo: pam_unix(sudo:auth): authentication failure; logname=utanveer-test uid=1000 euid=0 tty=/dev/pts/0 ruser=utanveer-test rhost=  user=utanveer-test
